@@ -8,7 +8,7 @@ public class ContactsMailDomainIntoAccountFieldHand {
             if (email != null) {
                 String[] emailParts = email.split('@');
                 if (emailParts.size() > 1) {
-                    emailDomains.add(emailParts[0]);
+                    emailDomains.add(emailParts[1]);
                 }
             }
         }
